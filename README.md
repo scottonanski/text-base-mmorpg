@@ -5,4 +5,4 @@ Install Ollama and make sure you have world-map.py pointing to the right port;
 
  ```self.ollama_url = "http://localhost:11434/api/generate"```
 
-I'm using Mistral:7b for this, but I might switch to something smaller.
+I'm using "model": "gemma3:1b" for this, but I might switch to something smaller.
