@@ -32,7 +32,7 @@ class World:
 
     def ollama_narrate(self, prompt):
         payload = {
-            "model": "mistral:7b",
+            "model": "gemma3:1b",
             "prompt": prompt,
             "stream": False
         }
